@@ -4,6 +4,7 @@
 // Whitespace: JavaScript ignores spaces, tabs, and line breaks (collectively called whitespace) that are not necessary for code execution. However, whitespace can enhance code readability.
 // Blocks: Code blocks in JavaScript are enclosed in curly braces ({}) and are used to group statements together. Blocks are often used in control structures like loops and conditional statements.
 
+
 //Variables
 let name = "John";
 console.log("This is the name of the user:", name);
@@ -24,3 +25,5 @@ console.log(mySecondFavDrink);
 const gravity = "9.8";
 const birthday = "June 23";
 //gravity = "9.5";
+
+

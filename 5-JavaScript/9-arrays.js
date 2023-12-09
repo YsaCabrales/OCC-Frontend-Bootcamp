@@ -1,5 +1,4 @@
 // Introduction to Arrays
-
 // console.log("Hero 1 is", superheros[0]);
 // console.log("Hero 5 is" , superheros[4]);
 
@@ -30,5 +29,11 @@ console.log("Array length is", superheros.length);
 console.log("Index of Wonder Woman is", superheros.indexOf("Wonder Woman"));
 console.log("Joined Array: ", superheros.join("-"));
 
-let slicedArray = superheros.slice(0, 1);
-console.log(slicedArray);
+let slicedArray = superheros.slice(0, 3);
+console.log("Sliced Array:", slicedArray);
+console.log("Superheros Array:", superheros);
+
+let removedElements = superheros.splice(2, 2);
+console.log("Removed Elements:", removedElements);
+console.log("Updated array:", superheros);
+

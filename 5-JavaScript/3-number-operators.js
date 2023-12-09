@@ -1,25 +1,28 @@
-//String - abc123!@#$
-let name = "John";
-console.log("The type of name:", typeof name);
+//Arithmetic calculation
+let a = 10;
+let b = 5;
 
-//Number - 123456
-let age  = 25;
-console.log("The type of age:", typeof age);
+//Addition
+let sum = a + b;
+console.log("This is the sum of a and b:", sum);
 
-//Boolean - True or false
-let isStudent = false;
-let isTeacher = true;
-console.log("The type of isStudent:", typeof isStudent);
-console.log("The type of isTeacher:", typeof isTeacher);
+//Subtraction
+let difference = a - b;
+console.log("This is the difference of a and b:", difference);
 
-//Null - Intentional absence of data
-let girlFriend = null;
-console.log("The type of girlfriend:", typeof girlFriend);
+//Multiplication
+let product = a * b;
+console.log("This is the product of a and b:", product);
 
-let myNumber;
-console.log(myNumber);
-console.log("The value of city:", myNumber);
-console.log("The type of city:", typeof myNumber);
 
-let division = 5 / 0;
-console.log(division);
+//Division
+let division = a / b;
+console.log("This is a the division of a and b:", division);
+
+//Any number divided by 0
+let result = a / 0;
+console.log("The result is", result)
+
+//Modulo / Remainder
+let remainder = 12 % 5;
+console.log("The ramainder of 12 and 5 is", remainder);
